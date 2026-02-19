@@ -773,32 +773,18 @@ Grade to pass: 21 (70%)
 (ไม่ตั้ง - ให้เข้าได้เลย)
 ```
 
-9. **⭐ Activity completion:**
+9. **⭐ Completion conditions:**
 ```
-Completion tracking: Show activity as complete when conditions are met
-
-☑ Require view: Yes
-☑ Require submit: Yes
-
+☑ View the activity
+☑ Make a submission
 Expect completed on: [Due date]
 ```
 
 10. **บันทึก** → **"Save and display"**
 
-**✅ ตรวจสอบความสำเร็จ:**
-- [ ] Group submission settings: Enabled
-- [ ] Require all members submit: No (คนเดียวส่งแทนได้)
-- [ ] Max files = 2, File types = .pdf, .pptx
-- [ ] Max size = 20 MB
-- [ ] Grade category = โปรเจกต์, Max = 30, Pass = 21
-- [ ] Feedback: Comments + Files
-- [ ] ไม่มี Restrict access
-- [ ] Activity completion: Require submit
-- [ ] ทดสอบ Switch role → ส่งงานกลุ่มได้
-
 ---
 
-#### **6.6 Choice - การโหวต/เลือก (15 นาที)**
+#### **5.7 Choice - การโหวต/เลือก**
 
 **📝 โจทย์:** สร้าง Choice ให้นักเรียนเลือกหัวข้อที่สนใจ
 
@@ -829,75 +815,50 @@ Description:
 ```
 
 3. **ตั้งค่าตัวเลือก (Options):**
-
+  Allow choice to be updated: No (ห้ามเปลี่ยนใจ)
+  Allow more than one choice to be selected: No (ให้เลือกได้ 1 ตัวเลือกเท่านั้น)
+  Limit the number of responses allowed: Yes
 **Option 1:**
 ```
 Choice 1: 🛒 หัวข้อที่ 1: [ชื่อหัวข้อ]
-   ตัวอย่าง: "E-commerce และการค้าออนไลน์"
 Limit: 10
-☑ Limit the number of responses allowed
+
 ```
 
 **Option 2:**
 ```
 Choice 2: ✈️ หัวข้อที่ 2: [ชื่อหัวข้อ]
-   ตัวอย่าง: "การท่องเที่ยวและ Tourism"
 Limit: 10
-☑ Limit the number of responses allowed
 ```
 
 **Option 3:**
 ```
 Choice 3: 📚 หัวข้อที่ 3: [ชื่อหัวข้อ]
-   ตัวอย่าง: "การศึกษาและ E-learning"
 Limit: 10
-☑ Limit the number of responses allowed
 ```
 
 4. **Availability:**
 ```
-Allow choice to be made from: [วันที่เปิด]
-Allow choice to be made until: [วันที่ปิด]
+Allow responses from: [วันที่เปิด]
+Allow responses until: [วันที่ปิด]
 ```
 
 5. **ตั้งค่าผลลัพธ์:**
 ```
-☐ Allow choice to be updated: No (ห้ามเปลี่ยนใจ)
 
-Show results to students: After they answer
-
-Publish results: Publish full results, showing names and their choices
+Publish results: Show results to students after they answer
 
 Privacy of results: Publish full results, showing names and their choices
 
 ☑ Show column for unanswered: Yes
 ```
 
-6. **⭐ Grade:**
+6. **⭐ Completion conditions:**
 ```
-(ไม่มี - Choice ไม่ให้คะแนน)
-```
-
-7. **⭐ Restrict access:**
-```
-(ไม่ตั้ง)
+   Students must manually mark the activity as done
 ```
 
-8. **⭐ Activity completion:**
-```
-Completion tracking: Students can manually mark as complete
-```
-
-9. **บันทึก** → **"Save and display"**
-
-**✅ ตรวจสอบความสำเร็จ:**
-- [ ] มี 3 ตัวเลือก พร้อม Limit = 10 ทั้งหมด
-- [ ] Allow update = No
-- [ ] Show results = After they answer
-- [ ] Publish = Full results (แสดงชื่อ)
-- [ ] ไม่ให้คะแนน
-- [ ] Activity completion = Manual
-- [ ] ทดสอบ Switch role → เลือกได้และเห็นผล
+7. **บันทึก** → **"Save and display"**
 
 ---
 
